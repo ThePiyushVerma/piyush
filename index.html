@@ -44,19 +44,20 @@
     <!-- Fontawesome css -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Main css -->
+     <!-- -->
     <link rel="stylesheet" href="/assets/css/style.css">
 
 
     <!-- a code to show alert to enable javascript -->
-   <div align="center">
+   <!--<div align="center">
         <noscript>
             <div style="position:fixed; top:0px; left:0px; z-index:3000; height:100%; width:100%; background-color:#FFFFFF">
                 <div style="font-family: Arial; font-size: 17px; background-color:#00bbf9; padding: 11pt;">Mohon aktifkan javascript pada browser untuk mengakses halaman ini!</div>
             </div>
         </noscript>
-    </div> 
+    </div> -->
     <!-- a code to protect from text selection, block text etc -->
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         function disableSelection(e) {
             if (typeof e.onselectstart != "undefined") e.onselectstart = function () {
                 return false
@@ -70,9 +71,9 @@
         window.onload = function () {
             disableSelection(document.body)
         }
-    </script>
+    </script> -->
     <!-- a code to protect content from right click -->
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         function mousedwn(e) {
             try {
                 if (event.button == 2 || event.button == 3) return false
@@ -87,9 +88,9 @@
             return false
         };
         document.onmousedown = mousedwn
-    </script>
+    </script> -->
     <!-- a code to protect shorcut keyboard, view source etc -->
-    <script type="text/javascript">
+    <!--  <script type="text/javascript">
         window.addEventListener("keydown", function (e) {
             if (e.ctrlKey && (e.which == 65 || e.which == 66 || e.which == 67 || e.which == 73 || e.which == 80 ||
                     e.which == 83 || e.which == 85 || e.which == 86)) {
@@ -101,16 +102,16 @@
                     e.which == 83 || e.which == 85 || e.which == 86)) {}
             return false
         }
-    </script>
+    </script> -->
     <!-- a code to protect your articles -->
-    <script type="text/javascript">
+   <!-- <script type="text/javascript">
         document.onkeydown = function (e) {
             e = e || window.event;
             if (e.keyCode == 123 || e.keyCode == 18) {
                 return false
             }
         }
-    </script>
+    </script> -->
 </head>
 
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
