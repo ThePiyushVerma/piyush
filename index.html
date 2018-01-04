@@ -15,7 +15,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
     <meta property="og:image" content="http://thepiyushverma.com/assets/images/open-graph-logo.jpg">
-    <meta property='og:image:url' content="http://thepiyushverma.com/assets/images/open-graph-logo.jpg"/>
+    <meta property='og:image:url' content="http://thepiyushverma.com/assets/images/open-graph-logo.jpg" />
     <meta property='og:image:width' content='400' />
     <meta property='og:image:height' content='400' />
     <meta property='og:image:type' content='image/jpeg' />
@@ -44,20 +44,20 @@
     <!-- Fontawesome css -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Main css -->
-     <!-- -->
+    <!-- -->
     <link rel="stylesheet" href="/assets/css/style.css">
 
 
     <!-- a code to show alert to enable javascript -->
-   <!--<div align="center">
+    <div align="center">
         <noscript>
             <div style="position:fixed; top:0px; left:0px; z-index:3000; height:100%; width:100%; background-color:#FFFFFF">
                 <div style="font-family: Arial; font-size: 17px; background-color:#00bbf9; padding: 11pt;">Mohon aktifkan javascript pada browser untuk mengakses halaman ini!</div>
             </div>
         </noscript>
-    </div> -->
+    </div>
     <!-- a code to protect from text selection, block text etc -->
-    <!-- <script type="text/javascript">
+    <script type="text/javascript">
         function disableSelection(e) {
             if (typeof e.onselectstart != "undefined") e.onselectstart = function () {
                 return false
@@ -71,9 +71,9 @@
         window.onload = function () {
             disableSelection(document.body)
         }
-    </script> -->
+    </script>
     <!-- a code to protect content from right click -->
-    <!-- <script type="text/javascript">
+    <script type="text/javascript">
         function mousedwn(e) {
             try {
                 if (event.button == 2 || event.button == 3) return false
@@ -88,9 +88,9 @@
             return false
         };
         document.onmousedown = mousedwn
-    </script> -->
+    </script>
     <!-- a code to protect shorcut keyboard, view source etc -->
-    <!--  <script type="text/javascript">
+    <script type="text/javascript">
         window.addEventListener("keydown", function (e) {
             if (e.ctrlKey && (e.which == 65 || e.which == 66 || e.which == 67 || e.which == 73 || e.which == 80 ||
                     e.which == 83 || e.which == 85 || e.which == 86)) {
@@ -102,16 +102,16 @@
                     e.which == 83 || e.which == 85 || e.which == 86)) {}
             return false
         }
-    </script> -->
+    </script>
     <!-- a code to protect your articles -->
-   <!-- <script type="text/javascript">
+    <script type="text/javascript">
         document.onkeydown = function (e) {
             e = e || window.event;
             if (e.keyCode == 123 || e.keyCode == 18) {
                 return false
             }
         }
-    </script> -->
+    </script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
@@ -131,17 +131,26 @@
                     <span class="icon icon-bar"></span>
                     <span class="icon icon-bar"></span>
                     <span class="icon icon-bar"></span>
-               </button>
+                </button>
                 <!-- lOGO TEXT HERE -->
-                <a href="index.html" class="navbar-brand"><span class="font-playfair">Piy</span>ush.</a>
+                <a href="index.html" class="navbar-brand">
+                    <span class="font-playfair">Piy</span>ush.</a>
             </div>
             <!-- NAVIGATION LINKS -->
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home" class="smoothScroll">Home</a></li>
-                    <li><a href="#about" class="smoothScroll">About</a></li>
-                    <li><a href="#contact" class="smoothScroll">Contact</a></li>
-                    <li><a href="http://blog.thepiyushverma.com/" target="_blank" class="smoothScroll">Blog</a></li>
+                    <li>
+                        <a href="#home" class="smoothScroll">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="smoothScroll">About</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="smoothScroll">Contact</a>
+                    </li>
+                    <li>
+                        <a href="http://blog.thepiyushverma.com/" target="_blank" class="smoothScroll">Blog</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -154,8 +163,10 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12">
                     <div class="home-thumb">
-                        <h3 class="wow fadeInUp" data-wow-delay="0.4s">hello,I am <span class="font-playfair">Piy</span>ush.</h3>
-                        <h1 class="wow fadeInUp" data-wow-delay="1.0s">I <span class="font-playfair">Design</span> websites.</h1>
+                        <h3 class="wow fadeInUp" data-wow-delay="0.4s">hello,I am
+                            <span class="font-playfair">Piy</span>ush.</h3>
+                        <h1 class="wow fadeInUp" data-wow-delay="1.0s">I
+                            <span class="font-playfair">Design</span> websites.</h1>
                     </div>
                 </div>
 
@@ -171,11 +182,16 @@
                     <div class="wow fadeInUp about-text" data-wow-delay="0.4s">
                         <h2>Hello, that's me!</h2>
                         <div>
-                            <h4 class="font-playfair">I'm Creative Designer based in Gurugram, India and focused on <strong>brand identity</strong>                                and web <strong>design.</strong></h4>
+                            <h4 class="font-playfair">I'm Creative Designer based in Gurugram, India and focused on
+                                <strong>brand identity</strong> and web
+                                <strong>design.</strong>
+                            </h4>
                             <h4 class="font-playfair">I love clean, simple and minimalist websites. I conceptualize ideas, design and code responsive
                                 websites from the ground up. I beautify cluttered interfaces. I also strive to create a pleasant
                                 user experience in my work.</h4>
-                            <h4 class="font-playfair">When I'm not coding or pushing pixels, I love turning myself into a freelance <strong>Photographer.</strong></h4>
+                            <h4 class="font-playfair">When I'm not coding or pushing pixels, I love turning myself into a freelance
+                                <strong>Photographer.</strong>
+                            </h4>
                         </div>
                     </div>
                 </div>
@@ -183,7 +199,8 @@
                     <!-- ABOUT IMAGE HERE -->
                     <div class="wow fadeInUp about-image" data-wow-delay="0.8s">
                         <img src="/assets/images/about-img.jpg" class="img-responsive" alt="">
-                        <h4><span class="font-playfair">Piy</span>ush - Creative Designer</h4>
+                        <h4>
+                            <span class="font-playfair">Piy</span>ush - Creative Designer</h4>
                     </div>
                 </div>
 
@@ -205,7 +222,7 @@
                     <!-- SERVICE THUMB -->
                     <div class="service-thumb">
                         <i class="fa fa-diamond"></i>
-                        <h4 class="font-playfair">Ideas</h4>
+                        <h2 class="font-playfair">Ideas</h2>
                         <p>I collaborate with clients and peers to nurture and transform ideas into well thought out design
                             specs.
                         </p>
@@ -215,16 +232,17 @@
                     <!-- SERVICE THUMB -->
                     <div class="service-thumb">
                         <i class="fa fa-magic"></i>
-                        <h4 class="font-playfair">UX/UI</h4>
+                        <h2 class="font-playfair">UX/UI</h2>
                         <p>I create interfaces &amp; intuitive UI patterns. I'm a minimalist who truly believes that less is
-                            more.</p>
+                            more.
+                        </p>
                     </div>
                 </div>
                 <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="0.8s">
                     <!-- SERVICE THUMB -->
                     <div class="service-thumb">
                         <i class="fa fa-code"></i>
-                        <h4 class="font-playfair">Code</h4>
+                        <h2 class="font-playfair">Code</h2>
                         <p>I design with HTML(5), CSS(3) and a touch of JavaScript. I love to work with front-end frameworks
                             like Bootstrap.</p>
                     </div>
@@ -244,10 +262,17 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-xs-12 text-center">
-                    <h2 class="font-playfair hidden-xs">Good websites get <strong>applause.</strong> Great websites get <strong>business.</strong></h2>
-                    <h2 class="font-playfair visible-xs" style="font-size: 25px;">Good websites get <strong>applause.</strong> <br>Great websites get <strong>business.</strong></h2>
-                    <h3 style="font-weight: normal; letter-spacing: 3px; font-size: medium; text-transform:none">Design should impress. Design should please. Design should rock. But most importantly,<br> Design should
-                        sell - literally and metaphorically</h3>
+                    <h2 class="font-playfair hidden-xs">Good websites get
+                        <strong>applause.</strong> Great websites get
+                        <strong>business.</strong>
+                    </h2>
+                    <h2 class="font-playfair visible-xs" style="font-size: 25px;">Good websites get
+                        <strong>applause.</strong>
+                        <br>Great websites get
+                        <strong>business.</strong>
+                    </h2>
+                    <h3 style="font-weight: normal; letter-spacing: 3px; font-size: medium; text-transform:none">Design should impress. Design should please. Design should rock. But most importantly,
+                        <br> Design should sell - literally and metaphorically</h3>
                 </div>
             </div>
     </section>
@@ -258,7 +283,8 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 text-center">
                     <h5 class="font-playfair">I am available for freelance projects.</h5>
-                    <h2>Let's <span class="font-playfair">work</span> together indeed!</h2>
+                    <h2>Let's
+                        <span class="font-playfair">work</span> together indeed!</h2>
                     <a href="#contact" class="smoothScroll btn btn-default section-btn">Get quotes</a>
                 </div>
             </div>
@@ -273,7 +299,8 @@
                     <!-- SECTION TITLE -->
                     <div class="section-title">
                         <h2>say hello</h2>
-                        <h4>Ready to start your new project with me? That's great! Add me on Skype or send me an email and<br>                            I will get back to you as soon as possible!</h4>
+                        <h4>Ready to start your new project with me? That's great! Add me on Skype or send me an email and
+                            <br> I will get back to you as soon as possible!</h4>
                     </div>
                 </div>
                 <div class="col-md-offset-1 col-md-10 col-sm-12">
@@ -329,11 +356,21 @@
                 </div>
                 <div class="col-md-4 col-sm-4">
                     <ul class="social-icon">
-                        <li class="wow fadeInUp animated"><a href="mailto:hello@thepiyushverma.com" class="fa fa-envelope-o"></a></li>
-                        <li class="wow fadeInUp animated"><a href="https://in.linkedin.com/in/thepiyushverma" target="_blank" class="fa fa-linkedin"></a></li>
-                        <li class="wow fadeInUp animated"><a href="https://www.instagram.com/thepiyushverma" target="_blank" class="fa fa-instagram"></a></li>
-                        <li class="wow fadeInUp animated"><a href="https://www.facebook.com/ThePiyushVerma" target="_blank" class="fa fa-facebook"></a></li>
-                        <li class="wow fadeInUp animated"><a href="https://twitter.com/ThePiyushVerma" target="_blank" class="fa fa-twitter"></a></li>
+                        <li class="wow fadeInUp animated">
+                            <a href="mailto:hello@thepiyushverma.com" class="fa fa-envelope-o"></a>
+                        </li>
+                        <li class="wow fadeInUp animated">
+                            <a href="https://in.linkedin.com/in/thepiyushverma" target="_blank" class="fa fa-linkedin"></a>
+                        </li>
+                        <li class="wow fadeInUp animated">
+                            <a href="https://www.instagram.com/thepiyushverma" target="_blank" class="fa fa-instagram"></a>
+                        </li>
+                        <li class="wow fadeInUp animated">
+                            <a href="https://www.facebook.com/ThePiyushVerma" target="_blank" class="fa fa-facebook"></a>
+                        </li>
+                        <li class="wow fadeInUp animated">
+                            <a href="https://twitter.com/ThePiyushVerma" target="_blank" class="fa fa-twitter"></a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -345,6 +382,7 @@
 
     <script src="/assets/js/bootstrap.min.js"></script>
     <script src="/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.parallax.js"></script>
     <script src="/assets/js/particles.min.js"></script>
     <script src="/assets/js/app.js"></script>
     <script src="/assets/js/smoothscroll.js"></script>
